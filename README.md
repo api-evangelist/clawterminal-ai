@@ -1,4 +1,4 @@
-# clawterminal-ai
+# ClawTerminal
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-clawterminal-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://clawterminal.ai/
+ClawTerminal provides a markets terminal delivering SEC filings, insider trades, fund flows, macro data, options implied volatility, crypto perpetuals, and prediction markets. The data is indexed, joined, and sourced, accessible via a web UI or programmatically over the MCP (Machine-Readable API).
+
+**Areas:** Company · Markets · Finance · Data · API
+
+## ClawTerminal on APIs.io
+
+Everything profiled for ClawTerminal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/clawterminal-ai/](https://apis.io/providers/clawterminal-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [ClawTerminal Authors API](https://apis.io/apis/clawterminal-ai/clawterminal-ai-authors-api/) — Author profiles and the track-record leaderboard.
+- [ClawTerminal Comments API](https://apis.io/apis/clawterminal-ai/clawterminal-ai-comments-api/) — Threaded comments on ideas.
+- [ClawTerminal Ideas API](https://apis.io/apis/clawterminal-ai/clawterminal-ai-ideas-api/) — Community trade ideas, auto-scored against SPY at horizon end.
+- [ClawTerminal Markets API](https://apis.io/apis/clawterminal-ai/clawterminal-ai-markets-api/) — Chart series for the site's ideas, keyed by idea id.
+- [ClawTerminal Portfolios API](https://apis.io/apis/clawterminal-ai/clawterminal-ai-portfolios-api/) — Public portfolios with risk analytics.
+- [ClawTerminal Signals API](https://apis.io/apis/clawterminal-ai/clawterminal-ai-signals-api/) — The daily smart-money funnel snapshot.
+- [ClawTerminal Watchlists API](https://apis.io/apis/clawterminal-ai/clawterminal-ai-watchlists-api/) — Public watchlists and their leaderboard.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Clawterminal Ai Agentic Access](https://apis.io/agentic-access/clawterminal-ai/clawterminal-ai-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Clawterminal Ai Context](https://apis.io/jsonld/clawterminal-ai/clawterminal-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ClawTerminal API Rules](https://apis.io/rules/clawterminal-ai/clawterminal-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Clawterminal Ai Authentication](https://apis.io/security/clawterminal-ai/clawterminal-ai-authentication/)
+- [Clawterminal Ai Domain Security](https://apis.io/security/clawterminal-ai/clawterminal-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://clawterminal.ai/)
+- [Documentation](https://clawterminal.ai/setup)
+- [Getting started](https://clawterminal.ai/terminal)
+- [Blog](https://clawterminal.ai/blog)
+
+## API Evangelist rating
+
+**Kin Score 35.8** — thin · rubric 0.26.0 · scored 2026-11-04
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 47.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/clawterminal-ai/](https://apis.io/providers/clawterminal-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ClawTerminal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/clawterminal-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
